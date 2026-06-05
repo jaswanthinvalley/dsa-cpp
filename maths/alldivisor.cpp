@@ -1,19 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void printn(int n){
+void div(int n) {
+
     for(int i=1;i<=n;i++){
-        for(int j=1;j<=i;j++){
-            cout<<j;
-        }
-        cout<<endl;
+    if (n % i == 0)  
+    cout<<i<<endl;
     }
+        
+
+
 
 }
-
-
 int main() {
     int n;
     cin>>n;
-    printn(n);
+    div(n);
+
 }
